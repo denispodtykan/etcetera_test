@@ -1,0 +1,37 @@
+body:not(.theme-preset-active) #page-sub-header h1{
+    color: $second-color; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $text-color;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 45px;
+}
+.content-area{
+    width: 100%;
+}
+.btn-primary, .btn-primary:hover,
+.btn-primary.focus, .btn-primary:focus{
+    color: #fff;
+    background-color: $second-color;
+    border-color: $second-color;
+    box-shadow: none;
+    outline: none;
+}
+.page-item.active .page-link{
+    background-color: $second-color;
+    border-color: $second-color;
+}
+.page-link, .btn-link{
+    &,&:hover{
+        color: $text-color;
+    }
+    
+}
+a{
+    color:  $second-color;
+}
